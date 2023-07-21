@@ -463,65 +463,6 @@ a {
 
 /* Studio Footer */
 
-.footer a {
-  text-decoration: none;
-}
-
-.footer {
-  color: var(--primary-white-color);
-  background-color: var(--footer-background);
-}
-
-address {
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
-}
-
-.container .link-webstudio-logo {
-  display: block;
-  margin-bottom: 9px;
-}
-
-address .item:not(:last-child) {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 9px;
-}
-
-.footer-socmedia {
-  display: flex;
-}
-
-.socmedia-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: var(--primary-white-color);
-  border-radius: 50%;
-}
-
-.footer-socmedia .item:not(:last-child) {
-  margin-right: 11px;
-}
-
-.footer-socmedie-link {
-  display: block;
-  fill: currentColor;
-}
-
-.footer-flex {
-  display: flex;
-  padding-top: 48px;
-  /* padding-bottom: 28px;
-  align-items: baseline;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
-}
-
 .footerbg {
   background-color: var(--navyblue);
   padding: 100px 0;
@@ -531,8 +472,46 @@ address .item:not(:last-child) {
   color: var(--cloud);
   font-weight: 400;
   line-height: 1.5;
+  padding: 40px 0px;
   letter-spacing: 0.32px;
   margin: 17.5px 0 0 0;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.socmedia-footer {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer-socmedia-icon {
+  margin-top: 16px;
+}
+
+.footer-socmedia {
+  display: flex;
+  margin-top: -16px;
+  margin-left: -16px;
+}
+
+.socmedia-item2 {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.socmedia-side {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.footer-flex {
+  display: flex;
 }
 
 /* Portfolio Page Styling */
