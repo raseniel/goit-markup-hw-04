@@ -397,7 +397,7 @@ a {
   width: 44px;
   height: 44px;
 
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0);
   color: var(--primary-white-color);
   fill: var(var(--border-client));
 
@@ -472,7 +472,6 @@ a {
   color: var(--cloud);
   font-weight: 400;
   line-height: 1.5;
-  padding: 40px 0px;
   letter-spacing: 0.32px;
   margin: 17.5px 0 0 0;
 }
@@ -480,7 +479,6 @@ a {
 .footer-container {
   display: flex;
 }
-
 .socmedia-footer {
   color: white;
   font-size: 16px;
@@ -490,12 +488,9 @@ a {
   letter-spacing: 0.32px;
 }
 
-.footer-socmedia-icon {
-  margin-top: 16px;
-}
-
 .footer-socmedia {
   display: flex;
+
   margin-top: -16px;
   margin-left: -16px;
 }
@@ -503,11 +498,6 @@ a {
 .socmedia-item2 {
   margin-top: 16px;
   margin-left: 16px;
-}
-
-.socmedia-side {
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 .footer-flex {
