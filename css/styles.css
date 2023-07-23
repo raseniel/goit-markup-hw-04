@@ -402,7 +402,7 @@ a {
   width: 44px;
   height: 44px;
 
-  background-color: #31d0aa;
+  background-color: #4d5ae5;
   color: #f4f4fd;
   fill: #9747ff;
 
@@ -413,7 +413,7 @@ a {
 .socmedia-item:focus {
   color: #f4f4fd;
   fill: #9747ff;
-  background-color: #4d5ae5;
+  background-color: #31d0aa;
 }
 
 .icon-socmedia-link:hover,
@@ -507,7 +507,7 @@ a {
 
 .socmedia-item2 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: #31d0aa;
+  background-color: #4d5ae5;
   color: #f4f4fd;
   fill: #9747ff;
 
@@ -518,7 +518,7 @@ a {
 .socmedia-item2:focus {
   color: #f4f4fd;
   fill: #9747ff;
-  background-color: #4d5ae5;
+  background-color: #31d0aa;
 }
 
 .footer-flex {
