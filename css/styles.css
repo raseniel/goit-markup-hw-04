@@ -284,17 +284,8 @@ a {
 }
 
 .benefits-icon {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  width: 270px;
-  height: 120px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  justify-content: center;
-  color: #2e2f42;
-  background-color: var(--cloud);
-  border-radius: 4px;
+  width: 64px;
+  height: 64px;
 }
 
 .titlelist {
@@ -353,7 +344,7 @@ a {
   background-color: #ffffff;
   padding-bottom: 32px;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 24px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -386,12 +377,12 @@ a {
   display: flex;
   padding: 0;
   margin: 0;
-  padding-bottom: 24px;
+  margin-top: 8px;
   justify-content: center;
 }
 
 .socmedia-link-list .item:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 18px;
 }
 
 .socmedia-item {
@@ -411,9 +402,7 @@ a {
 
 .socmedia-item:hover,
 .socmedia-item:focus {
-  color: #f4f4fd;
-  fill: #9747ff;
-  background-color: #31d0aa;
+  background-color: #40488f;
 }
 
 .icon-socmedia-link:hover,
@@ -450,15 +439,14 @@ a {
 
 .customer-link:hover,
 .customer-link:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
+  color: #404bbf;
+  border-color: #404bbf;
 }
 
 .icon-customer {
   fill: currentColor;
-  max-width: 86px;
-  max-height: 50px;
+  width: 104px;
+  height: 56px;
 }
 
 .icon-customer:hover,
@@ -487,11 +475,15 @@ a {
 .socmedia-footer {
   color: white;
   font-size: 16px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.socmedia-side-con2 {
+  margin-left: 120px;
 }
 
 .footer-socmedia {
@@ -519,10 +511,6 @@ a {
   color: #f4f4fd;
   fill: #9747ff;
   background-color: #31d0aa;
-}
-
-.footer-flex {
-  display: flex;
 }
 
 /* Portfolio Page Styling */
@@ -585,6 +573,17 @@ a {
   flex-wrap: wrap;
   margin-top: -48px;
   margin-left: -24px;
+}
+
+.img-pictures a {
+  display: block;
+}
+
+.img-pictures a:hover,
+a:focus {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .img-pictures {
