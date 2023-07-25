@@ -288,6 +288,16 @@ a {
   height: 64px;
 }
 
+.benefits-creteria-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 .titlelist {
   font-size: var(--heading-three);
   color: var(--navyblue);
@@ -389,20 +399,16 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px 12px;
-  width: 44px;
-  height: 44px;
-
+  width: 40px;
+  height: 40px;
   background-color: #4d5ae5;
   color: #f4f4fd;
-  fill: #9747ff;
-
   border-radius: 50%;
 }
 
 .socmedia-item:hover,
 .socmedia-item:focus {
-  background-color: #40488f;
+  background-color: #31d0aa;
 }
 
 .icon-socmedia-link:hover,
@@ -492,24 +498,31 @@ a {
   margin-left: -16px;
 }
 
-.socmedia-item2 {
+.footer-socmedia-item {
   margin-top: 16px;
   margin-left: 16px;
 }
 
-.socmedia-item2 {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+.footer-socmedia-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
   background-color: #4d5ae5;
   color: #f4f4fd;
-  fill: #9747ff;
+  border-radius: 50%;
+}
+.footer-socmedia-item {
+  background-color: #4d5ae5;
+  color: #f4f4fd;
 
   border-radius: 50%;
 }
 
-.socmedia-item2:hover,
-.socmedia-item2:focus {
+.footer-socmedia-item :hover,
+.footer-socmedia-item :focus {
   color: #f4f4fd;
-  fill: #9747ff;
   background-color: #31d0aa;
 }
 
@@ -580,7 +593,7 @@ a {
 }
 
 .img-pictures a:hover,
-a:focus {
+.img-pictures a:focus {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
